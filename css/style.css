@@ -1,0 +1,253 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+html,
+bady {
+  background-repeat: no-repeat;
+  background-color: rgb(225, 134, 134);
+}
+
+#loading {
+  position: fixed;
+  background-color: rgb(255, 255, 255);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 100;
+  transition: 0.5s;
+}
+#loading.loading-none {
+  opacity: 0;
+  z-index: -1;
+}
+@keyframes ldio-yzaezf3dcmj {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.ldio-yzaezf3dcmj div {
+  left: 40px;
+  top: 54px;
+  position: absolute;
+  animation: ldio-yzaezf3dcmj linear 1s infinite;
+  background: #fe718d;
+  width: 120px;
+  height: 12px;
+  border-radius: 19.2px / 6px;
+  transform-origin: 60px 46px;
+}
+.ldio-yzaezf3dcmj div:nth-child(1) {
+  transform: rotate(0deg);
+  animation-delay: -0.9166666666666666s;
+  background: #fe718d;
+}
+.ldio-yzaezf3dcmj div:nth-child(2) {
+  transform: rotate(30deg);
+  animation-delay: -0.8333333333333334s;
+  background: #f47e60;
+}
+.ldio-yzaezf3dcmj div:nth-child(3) {
+  transform: rotate(60deg);
+  animation-delay: -0.75s;
+  background: #f8b26a;
+}
+.ldio-yzaezf3dcmj div:nth-child(4) {
+  transform: rotate(90deg);
+  animation-delay: -0.6666666666666666s;
+  background: #abbd81;
+}
+.ldio-yzaezf3dcmj div:nth-child(5) {
+  transform: rotate(120deg);
+  animation-delay: -0.5833333333333334s;
+  background: #849b87;
+}
+.ldio-yzaezf3dcmj div:nth-child(6) {
+  transform: rotate(150deg);
+  animation-delay: -0.5s;
+  background: #6492ac;
+}
+.ldio-yzaezf3dcmj div:nth-child(7) {
+  transform: rotate(180deg);
+  animation-delay: -0.4166666666666667s;
+  background: #637cb5;
+}
+.ldio-yzaezf3dcmj div:nth-child(8) {
+  transform: rotate(210deg);
+  animation-delay: -0.3333333333333333s;
+  background: #6a63b6;
+}
+.ldio-yzaezf3dcmj div:nth-child(9) {
+  transform: rotate(240deg);
+  animation-delay: -0.25s;
+  background: #fe718d;
+}
+.ldio-yzaezf3dcmj div:nth-child(10) {
+  transform: rotate(270deg);
+  animation-delay: -0.16666666666666666s;
+  background: #f47e60;
+}
+.ldio-yzaezf3dcmj div:nth-child(11) {
+  transform: rotate(300deg);
+  animation-delay: -0.08333333333333333s;
+  background: #f8b26a;
+}
+.ldio-yzaezf3dcmj div:nth-child(12) {
+  transform: rotate(330deg);
+  animation-delay: 0s;
+  background: #abbd81;
+}
+.loadingio-spinner-spinner-2by998twmg8 {
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  overflow: hidden;
+  background: #ffffff;
+}
+.ldio-yzaezf3dcmj {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transform: translateZ(0) scale(1);
+  backface-visibility: hidden;
+  transform-origin: 0 0; /* see note above */
+}
+.ldio-yzaezf3dcmj div {
+  box-sizing: content-box;
+}
+.parent-bg {
+  margin: 0 auto;
+  max-width: 700px;
+  height: 700px;
+  background-color: rgb(222, 0, 0);
+  animation-name: animationName;
+  background-image: url(../img/nutrtr.jpg);
+  background-size: cover;
+  position: relative;
+  color: rgb(239, 137, 12);
+  box-shadow: 1px 1px 50px 30px;
+  transition: 1s;
+  top: 200px;
+}
+.parent-bg:hover {
+  box-shadow: 1px 1px 50px 30px;
+  background-image: url(../img/loading.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  color: rgb(8, 255, 8);
+}
+.parent {
+  max-width: 200px;
+  height: 200px;
+  position: absolute;
+  border-radius: 50%;
+  animation-name: animationName;
+  background-image: url(../img/bmw1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-delay: 0.5s;
+  animation-iteration-count: infinite;
+}
+.parent:hover {
+  cursor: pointer;
+}
+
+@keyframes animationName {
+  0% {
+    background-image: url(../img/bmw1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+  }
+  10% {
+    background-image: url(../img/bmw1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1s;
+    top: 0;
+    left: 0;
+  }
+  17% {
+    background-image: url(../img/benz.jpg);
+    transition: 1s;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 500px;
+    left: 500px;
+  }
+  35% {
+    background-image: url(../img/benz.jpg);
+    transition: 1s;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 500px;
+    left: 500px;
+  }
+  50% {
+    background-image: url(../img/lombo.jpg);
+    background-size: cover;
+    transition: 1s;
+    background-repeat: no-repeat;
+    top: 500px;
+    left: 0;
+  }
+  60% {
+    background-image: url(../img/lombo.jpg);
+    background-size: cover;
+    transition: 1s;
+    background-repeat: no-repeat;
+    top: 500px;
+    left: 0;
+  }
+  75% {
+    background-image: url(../img/ferari.png);
+    background-size: cover;
+    transition: 1s;
+    background-repeat: no-repeat;
+    animation-play-state: 1s;
+    top: 0;
+    left: 500px;
+  }
+  78% {
+    background-image: url(../img/ferari.png);
+    transition: 1s;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation-play-state: 1s;
+    top: 0;
+    left: 500px;
+  }
+  85% {
+    background-image: url(../img/ww.jpg);
+    background-size: cover;
+    transition: 1s;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+  }
+  100% {
+    background-image: url(../img/ww.jpg);
+    transition: 1s;
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+  }
+}
